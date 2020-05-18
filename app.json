@@ -1,0 +1,15 @@
+{
+    "id": "d2768806-5b8a-45fd-a7af-23212757241e",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.4.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Novikov",
+        "homepage": "https://novikov.ua",
+        "support": "https://novikov.ua"
+    },
+    "name": "UIAFinaid",
+    "nameSlug": "uiafinaid",
+    "classFile": "UIAFinaidApp.ts",
+    "description": "Форма заявки на получение финансовой помощи"
+}

@@ -98,7 +98,9 @@ export class UIAFinaidApp extends App implements IUIKitInteractionHandler {
             //     errors: err,
             // });
 
-// by Novikov временно блоканем белый экарн смерти если не заполены обязтельные поля - просто молчим ничего не отправялем
+            // by Novikov временно блоканем белый экарн смерти если не заполены обязтельные поля - просто молчим ничего не отправялем
+            // затем это закоментируй и раскоментирую блок выше
+            // когда перейдем на новые приложения
             const modal = await createPollModal({data, persistence, modify});
             return context.getInteractionResponder().updateModalViewResponse(modal);
 

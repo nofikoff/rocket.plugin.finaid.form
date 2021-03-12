@@ -7,6 +7,6 @@
     },
     "dependencies": {
         "@types/node": "^12.12.7",
-        "jspdf": "^1.5.3"
+        "jspdf": "^2.3.1"
     }
 }
